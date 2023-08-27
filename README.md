@@ -32,6 +32,17 @@ The major steps followed are:
 ### What is the dataset that is being used?
 Based on various meteorological surveys and people's styles, the service provider firm has gathered a large dataset on daily bike demands across the American market based on some factors in the form of a dataset: day.csv
 
+## Libraries Used
+#### Data manipulation
+- numpy
+- pandas
+#### Data visualization
+- matplotlib
+- seaborn
+#### Data analytics and modeling
+- statsmodels
+- sklearn
+  
 ## Conclusions
 - The given dataset has been split in the 70-30 ratio for training-test sets.
 - The r-squared value of the model on the training data is 0.823 with an adjusted r-square score of 0.819.
@@ -44,17 +55,6 @@ Based on various meteorological surveys and people's styles, the service provide
   - Year
   - Season (Winter)
   - month (September)
-
-## Libraries Used
-#### Data manipulation
-- numpy
-- pandas
-#### Data visualization
-- matplotlib
-- seaborn
-#### Data analytics and modeling
-- statsmodels
-- sklearn
 
 ## Acknowledgements
 The diagrams for `General Subjective Questions` have been taken from:
